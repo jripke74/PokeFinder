@@ -12,7 +12,7 @@
 		89F67F4B1EE4C2B50088A80C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F67F491EE4C2B50088A80C /* Main.storyboard */; };
 		89F67F4D1EE4C2B50088A80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F67F4C1EE4C2B50088A80C /* Assets.xcassets */; };
 		89F67F501EE4C2B50088A80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F67F4E1EE4C2B50088A80C /* LaunchScreen.storyboard */; };
-		89F67F581EE4C30E0088A80C /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89F67F571EE4C30E0088A80C /* GoogleService-Info-2.plist */; };
+		89F67F581EE4C30E0088A80C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89F67F571EE4C30E0088A80C /* GoogleService-Info.plist */; };
 		89F67F6B1EE4CE9E0088A80C /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F67F621EE4CE9E0088A80C /* GeoFire.m */; };
 		89F67F6C1EE4CE9E0088A80C /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F67F641EE4CE9E0088A80C /* GFBase32Utils.m */; };
 		89F67F6D1EE4CE9E0088A80C /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F67F661EE4CE9E0088A80C /* GFGeoHash.m */; };
@@ -29,7 +29,7 @@
 		89F67F4C1EE4C2B50088A80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89F67F4F1EE4C2B50088A80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89F67F511EE4C2B50088A80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89F67F571EE4C30E0088A80C /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		89F67F571EE4C30E0088A80C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		89F67F5B1EE4CE9E0088A80C /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
 		89F67F5C1EE4CE9E0088A80C /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
 		89F67F5D1EE4CE9E0088A80C /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 				89F67F4C1EE4C2B50088A80C /* Assets.xcassets */,
 				89F67F4E1EE4C2B50088A80C /* LaunchScreen.storyboard */,
 				89F67F511EE4C2B50088A80C /* Info.plist */,
-				89F67F571EE4C30E0088A80C /* GoogleService-Info-2.plist */,
+				89F67F571EE4C30E0088A80C /* GoogleService-Info.plist */,
 				89F67F731EE4CFAB0088A80C /* PokeFind-Bridging-Header.h */,
 			);
 			path = PokeFind;
@@ -217,7 +217,7 @@
 			files = (
 				89F67F501EE4C2B50088A80C /* LaunchScreen.storyboard in Resources */,
 				89F67F4D1EE4C2B50088A80C /* Assets.xcassets in Resources */,
-				89F67F581EE4C30E0088A80C /* GoogleService-Info-2.plist in Resources */,
+				89F67F581EE4C30E0088A80C /* GoogleService-Info.plist in Resources */,
 				89F67F4B1EE4C2B50088A80C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
