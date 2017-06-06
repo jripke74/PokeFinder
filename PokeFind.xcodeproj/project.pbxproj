@@ -45,7 +45,7 @@
 		89F67F681EE4CE9E0088A80C /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
 		89F67F691EE4CE9E0088A80C /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
 		89F67F6A1EE4CE9E0088A80C /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
-		89F67F731EE4CFAB0088A80C /* PokeFinder-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PokeFinder-Bridging-Header.h"; sourceTree = "<group>"; };
+		89F67F731EE4CFAB0088A80C /* PokeFind-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PokeFind-Bridging-Header.h"; sourceTree = "<group>"; };
 		9529DB2F9075115B7C3B66C0 /* Pods-PokeFind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeFind.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokeFind/Pods-PokeFind.release.xcconfig"; sourceTree = "<group>"; };
 		B007AB6A7562840EC1C5D469 /* Pods_PokeFind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeFind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C60FCEF2AC799E2F3D969FFB /* Pods-PokeFind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeFind.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokeFind/Pods-PokeFind.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 				89F67F4E1EE4C2B50088A80C /* LaunchScreen.storyboard */,
 				89F67F511EE4C2B50088A80C /* Info.plist */,
 				89F67F571EE4C30E0088A80C /* GoogleService-Info-2.plist */,
-				89F67F731EE4CFAB0088A80C /* PokeFinder-Bridging-Header.h */,
+				89F67F731EE4CFAB0088A80C /* PokeFind-Bridging-Header.h */,
 			);
 			path = PokeFind;
 			sourceTree = "<group>";
@@ -412,6 +412,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeffripke.PokeFind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokeFind/PokeFind-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,6 +427,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeffripke.PokeFind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokeFind/PokeFind-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

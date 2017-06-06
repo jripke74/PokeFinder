@@ -1,5 +1,5 @@
 //
-//  PokeFinder-Bridging-Header.h
+//  PokeFind-Bridging-Header.h
 //  PokeFind
 //
 //  Created by Jeff Ripke on 6/4/17.
