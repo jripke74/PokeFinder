@@ -68,7 +68,23 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         return annotationView
     }
     
+    func createSighting(forLocation location: CLLocation, withPokemon pokedId: Int) {
+        geoFire.setLocation(location, forKey: "\(pokedId)")
+    }
+    
+    func showSightingsOnMap(location: CLLocation) {
+        let circleQuery = geoFire!.query(at: location, withRadius: 2.5)
+        _ = circleQuery?.observe(GFEventType.keyEntered, with: { (key, location) in
+            if let key = key, let location = location {
+                let anno = PokeAnnotation(coordinate: location.coordinate, pokemonNumber: Int(key)!)
+                self.mapView.addAnnotation(anno)
+            }
+        })
+    }
+    
     @IBAction func spotRandomPokemon(_ sender: UIButton) {
-        
+        let loc = CLLocation(latitude: mapView.centerCoordinate.latitude, longitude: mapView.centerCoordinate.longitude)
+        let rand = arc4random_uniform(151) + 1
+        createSighting(forLocation: loc, withPokemon: Int(rand))
     }
 }
